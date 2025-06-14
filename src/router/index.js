@@ -80,7 +80,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHashHistory('/admin-tailwind/'),
   routes,
   scrollBehavior(to, from, savedPosition) {
     return savedPosition || { top: 0 }
